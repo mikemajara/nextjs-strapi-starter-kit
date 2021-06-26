@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-strapi-boilerplate-frontend",
+  "version": "0.0.1",
+  "author": "nirmalya.email@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build:analyze": "ANALYZE=true next build && tsc --project tsconfig.server.json",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.20",
+    "@chakra-ui/icons": "^1.0.13",
+    "@chakra-ui/react": "^1.6.4",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "dayjs": "^1.10.5",
+    "emotion-theming": "^10.0.27",
+    "framer-motion": "^4",
+    "graphql": "^15.5.1",
+    "next": "^11.0.1",
+    "next-auth": "^3.27.0",
+    "pg": "^8.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "tslint": "^6.1.3",
+    "tslint-react": "^5.0.0",
+    "typescript": "^4.3.4"
+  }
+}
